@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskApp.Web", "TaskApp.Web\TaskApp.Web.csproj", "{4015312C-C64C-4A24-A97A-EF4E20F3FAE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskApp.Test", "TaskApp.Test\TaskApp.Test.csproj", "{F3CEC7AA-8012-4143-9D4F-1FCB99B1E9C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4015312C-C64C-4A24-A97A-EF4E20F3FAE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4015312C-C64C-4A24-A97A-EF4E20F3FAE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4015312C-C64C-4A24-A97A-EF4E20F3FAE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4015312C-C64C-4A24-A97A-EF4E20F3FAE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3CEC7AA-8012-4143-9D4F-1FCB99B1E9C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3CEC7AA-8012-4143-9D4F-1FCB99B1E9C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3CEC7AA-8012-4143-9D4F-1FCB99B1E9C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3CEC7AA-8012-4143-9D4F-1FCB99B1E9C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA1C5322-2DEB-429C-9222-2B9247F7259D}
+	EndGlobalSection
+EndGlobal

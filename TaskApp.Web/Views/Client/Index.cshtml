@@ -1,0 +1,41 @@
+﻿@model TaskApp.Web.ViewModels.ClientViewModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Client List</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Client Name</th>
+            <th scope="col">Company</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+       @foreach (var item in Model.clients) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClientId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Company.Name)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new {id=item.ClientId}) |
+                @Html.ActionLink("Details", "Details", new {id=item.ClientId}) |
+                @Html.ActionLink("Delete", "Delete", new {id=item.ClientId })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
